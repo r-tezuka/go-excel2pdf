@@ -1,0 +1,5 @@
+powershell.go
+https://gist.github.com/coolbrg/d1854cc771025efb4a30197820c2c612
+
+コマンド実行
+https://qiita.com/TsuyoshiUshio@github/items/a05f57a8b6e1823880e6
