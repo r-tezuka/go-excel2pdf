@@ -3,3 +3,6 @@ https://gist.github.com/coolbrg/d1854cc771025efb4a30197820c2c612
 
 コマンド実行
 https://qiita.com/TsuyoshiUshio@github/items/a05f57a8b6e1823880e6
+
+印刷コマンド
+https://blog.deltabox.site/post/2019/07/print_excel_only_pages/
