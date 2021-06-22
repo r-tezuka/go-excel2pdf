@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("PDFに変換しています")
 
 	inPath, _ := filepath.Abs("./test.xlsx")
-	outPath, _ := filepath.Abs("./test.pdf")
+	outPath := getFilePathWithoutExt(inPath) + ".pdf"
 
 	stdout, err := exec.Command(
 		// command header
@@ -41,4 +41,8 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(string(stdout))
+}
+
+func getFilePathWithoutExt(path string) string {
+	return path[:len(path)-len(filepath.Ext(path))]
 }
